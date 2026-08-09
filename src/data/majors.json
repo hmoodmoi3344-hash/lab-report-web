@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mech",
+    "name": "机械工程"
+  },
+  {
+    "id": "process",
+    "name": "过程装备与控制工程"
+  },
+  {
+    "id": "energy",
+    "name": "能源与动力工程"
+  },
+  {
+    "id": "electrical",
+    "name": "电气工程及其自动化"
+  },
+  {
+    "id": "elecinfo",
+    "name": "电子信息工程"
+  },
+  {
+    "id": "comm",
+    "name": "通信工程"
+  },
+  {
+    "id": "automation",
+    "name": "自动化"
+  },
+  {
+    "id": "civil",
+    "name": "土木工程"
+  },
+  {
+    "id": "water",
+    "name": "给排水科学与工程"
+  },
+  {
+    "id": "building",
+    "name": "建筑环境与能源应用工程"
+  },
+  {
+    "id": "material",
+    "name": "材料科学与工程"
+  },
+  {
+    "id": "metalmat",
+    "name": "金属材料工程"
+  },
+  {
+    "id": "nonmetal",
+    "name": "无机非金属材料"
+  },
+  {
+    "id": "chemeng",
+    "name": "化学工程与工艺"
+  },
+  {
+    "id": "environment",
+    "name": "环境工程"
+  },
+  {
+    "id": "safety",
+    "name": "安全工程"
+  },
+  {
+    "id": "surveying",
+    "name": "测绘工程"
+  },
+  {
+    "id": "engineeringmgmt",
+    "name": "工程管理"
+  },
+  {
+    "id": "vehicle",
+    "name": "车辆工程"
+  },
+  {
+    "id": "aircraft",
+    "name": "飞行器制造工程"
+  },
+  {
+    "id": "navigation",
+    "name": "航海技术"
+  },
+  {
+    "id": "agriculture",
+    "name": "农业工程"
+  },
+  {
+    "id": "food",
+    "name": "食品科学与工程"
+  },
+  {
+    "id": "geology",
+    "name": "地质工程"
+  },
+  {
+    "id": "mining",
+    "name": "采矿工程"
+  }
+]

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>补充实验数据 · 投稿 - 工科实验报告样本库</title>
+  <meta name="description" content="同学投稿：补充你做过的实验（目的、仪器、原始测量数据、数据处理计算表、误差分析），审核通过后收录进样本库，帮助更多同学。" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">补充实验数据（投稿）</h1>
+      <p class="site-sub">你做过的实验，帮更多同学少走弯路</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <a class="back" href="index.html">← 返回样本库</a>
+
+    <div class="disclaimer">
+      <strong>投稿说明：</strong>请尽量提交<strong>你自己实测、可核对</strong>的数据。本站为免费公益样本库，
+      投稿即表示你允许本站在注明来源的前提下公开展示。提交后数据进入<strong>待审核队列</strong>，
+      管理员确认无误后才会收录。
+    </div>
+
+    <form id="submit-form" class="submit-form" autocomplete="off">
+      <div class="field">
+        <label>所属课程 <span class="req">*</span></label>
+        <select id="f-course" required>
+          <option value="">请选择课程</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>实验名称 <span class="req">*</span></label>
+        <input id="f-name" type="text" placeholder="如：伏安法测电阻" required />
+      </div>
+
+      <div class="field">
+        <label>实验目的（每行一条）</label>
+        <textarea id="f-purpose" rows="3" placeholder="掌握伏安法测电阻的原理&#10;熟悉电表的使用"></textarea>
+      </div>
+
+      <div class="field">
+        <label>实验仪器设备（每行一件）</label>
+        <textarea id="f-instruments" rows="2" placeholder="直流稳压电源&#10;电流表、电压表"></textarea>
+      </div>
+
+      <div class="field">
+        <label>原始测量数据表</label>
+        <div id="editor-raw" class="row-editor"></div>
+      </div>
+
+      <div class="field">
+        <label>数据处理计算表</label>
+        <div id="editor-calc" class="row-editor"></div>
+      </div>
+
+      <div class="field">
+        <label>数据分析与误差讨论</label>
+        <textarea id="f-analysis" rows="3" placeholder="分析误差来源、结果合理性等"></textarea>
+      </div>
+
+      <div class="field">
+        <label>署名 / 联系方式（可选）</label>
+        <input id="f-contact" type="text" placeholder="微信 / 邮箱，便于致谢或核对；留空则匿名" />
+      </div>
+
+      <div class="field">
+        <label>备注（可选）</label>
+        <textarea id="f-note" rows="2" placeholder="其他想说明的内容"></textarea>
+      </div>
+
+      <div class="submit-actions">
+        <button type="submit" class="btn">提交投稿</button>
+        <button type="button" id="btn-drafts" class="btn ghost">查看我的草稿</button>
+      </div>
+    </form>
+
+    <div id="result" class="result-box" style="display:none;"></div>
+
+    <div id="drafts" class="drafts-box" style="display:none;"></div>
+
+    <!-- 广告位 -->
+    <div class="ad-slot"></div>
+
+    <footer class="site-footer">
+      投稿内容经审核后收录 · 全部数据为公益共享，使用时请遵守学校学术规范。
+    </footer>
+  </div>
+
+  <script src="data/site-data.js"></script>
+  <script src="js/submit.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mech_principle",
+    "name": "机械原理"
+  },
+  {
+    "id": "mech_design",
+    "name": "机械设计"
+  },
+  {
+    "id": "eng_mechanics",
+    "name": "工程力学"
+  },
+  {
+    "id": "eng_material",
+    "name": "工程材料"
+  },
+  {
+    "id": "mfg_base",
+    "name": "机械制造基础"
+  },
+  {
+    "id": "circuit",
+    "name": "电路分析"
+  },
+  {
+    "id": "electronics",
+    "name": "电子技术"
+  },
+  {
+    "id": "electromag",
+    "name": "电磁场与电磁波"
+  },
+  {
+    "id": "signal_system",
+    "name": "信号与系统"
+  },
+  {
+    "id": "control",
+    "name": "自动控制原理"
+  },
+  {
+    "id": "fluid_mech",
+    "name": "工程流体力学"
+  },
+  {
+    "id": "heat_transfer",
+    "name": "传热学"
+  },
+  {
+    "id": "thermo",
+    "name": "工程热力学"
+  },
+  {
+    "id": "chem_principle",
+    "name": "化工原理"
+  },
+  {
+    "id": "physical_chem",
+    "name": "物理化学"
+  },
+  {
+    "id": "soil_mech",
+    "name": "土力学"
+  },
+  {
+    "id": "struct_mech",
+    "name": "结构力学"
+  },
+  {
+    "id": "surveying",
+    "name": "工程测量"
+  },
+  {
+    "id": "hydraulics",
+    "name": "水力学"
+  },
+  {
+    "id": "env_monitor",
+    "name": "环境监测"
+  },
+  {
+    "id": "safety",
+    "name": "安全系统工程"
+  },
+  {
+    "id": "food_eng",
+    "name": "食品工程"
+  },
+  {
+    "id": "geology_base",
+    "name": "地质学基础"
+  },
+  {
+    "id": "mining_eng",
+    "name": "采矿工程"
+  },
+  {
+    "id": "eng_mgmt",
+    "name": "工程管理"
+  }
+]

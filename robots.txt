@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hmoodmoi3344-hash.github.io/lab-report-web/sitemap.xml
