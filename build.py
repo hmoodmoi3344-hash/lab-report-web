@@ -214,6 +214,13 @@ def build_page(e, course_name, major_name):
     <div class="ad-slot"></div>
     <div class="monetize"><strong>想要更省事？</strong> 本站提供 Excel 自动计算模板（输入原始数据即出结果），可在闲鱼搜索「工科实验报告计算模板」获取；也欢迎收藏本站，在线计算器持续补充中。</div>
     <footer class="site-footer">数据均为 AI 虚构仿写演示样例，仅供格式参考，严禁直接提交作业。</footer>
+
+    <nav class="legal-links">
+      <a href="../about.html">关于本站</a> ·
+      <a href="../contact.html">联系</a> ·
+      <a href="../privacy.html">隐私政策</a> ·
+      <a href="../disclaimer.html">免责声明</a>
+    </nav>
   </div>
   <script>window.__EXP__ = {exp_json};</script>
   <script src="../js/calculators.js"></script>
@@ -252,6 +259,11 @@ def main():
         with open(os.path.join(OUT_EXP, e["id"] + ".html"), "w", encoding="utf-8") as f:
             f.write(html)
         urls.append("exp/" + e["id"] + ".html")
+
+    # 静态入口页 + 法定页面也进 sitemap，便于搜索引擎收录
+    static_pages = ["index.html", "exp.html", "submit.html",
+                    "about.html", "contact.html", "privacy.html", "disclaimer.html"]
+    urls = static_pages + urls
 
     # 3) sitemap + robots
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

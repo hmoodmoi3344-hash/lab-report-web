@@ -271,6 +271,25 @@ table.data.edit input {
 }
 .draft-item { font-size: 13px; padding: 6px 0; border-bottom: 1px dashed var(--line); }
 
+/* ---- 法定页面（关于 / 联系 / 隐私 / 免责） ---- */
+.legal {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-top: 16px;
+}
+.legal h2 { font-size: 17px; margin: 20px 0 8px; border-left: 4px solid var(--brand); padding-left: 10px; }
+.legal h2:first-child { margin-top: 0; }
+.legal p, .legal li { font-size: 15px; color: var(--ink); }
+.legal ul { padding-left: 20px; }
+.legal .note {
+  background: var(--warn-bg); border: 1px solid var(--warn-line); color: var(--warn-ink);
+  border-radius: 8px; padding: 8px 12px; font-size: 13px; margin: 12px 0;
+}
+.legal-links { margin-top: 14px; font-size: 13px; text-align: center; color: var(--muted); }
+.legal-links a { margin: 0 4px; }
+
 @media (min-width: 640px) {
   .site-title { font-size: 24px; }
   .grid { grid-template-columns: 1fr 1fr; }
