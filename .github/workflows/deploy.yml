@@ -1,0 +1,30 @@
+name: Build and deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate static pages and data
+        run: python build.py
+
+      - name: Commit generated files back to main
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "github-actions"
+          git add -A
+          git commit -m "[skip ci] build static pages and data" || echo "no changes"
+          git push

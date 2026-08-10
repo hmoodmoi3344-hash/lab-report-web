@@ -1,0 +1,34 @@
+[
+  {
+    "label": "流体阻力测定",
+    "expId": "exp_fluid_resistance"
+  },
+  {
+    "label": "离心泵特性曲线",
+    "expId": "exp_pump_curve"
+  },
+  {
+    "label": "套管换热器传热测定",
+    "expId": "exp_heat_exchanger"
+  },
+  {
+    "label": "金属拉伸实验",
+    "expId": "exp_metal_tensile"
+  },
+  {
+    "label": "雷诺实验",
+    "expId": "exp_reynolds"
+  },
+  {
+    "label": "惠斯通电桥测电阻",
+    "expId": "exp_wheatstone"
+  },
+  {
+    "label": "土的固结试验",
+    "expId": "exp_soil_consolidation"
+  },
+  {
+    "label": "混凝土抗压强度测定",
+    "expId": "exp_concrete_compression"
+  }
+]
