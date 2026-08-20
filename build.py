@@ -14,8 +14,8 @@ SRC = os.path.join(BASE, "src", "data")
 OUT_EXP = os.path.join(BASE, "exp")
 OUT_DATA = os.path.join(BASE, "data")
 
-# 部署后的真实站点地址（GitHub Pages 默认子路径）。改这里即可换域名。
-SITE_URL = os.environ.get("SITE_URL", "https://hmoodmoi3344-hash.github.io/lab-report-web")
+# 部署后的真实站点地址（已备案域名）。改这里即可换域名。
+SITE_URL = os.environ.get("SITE_URL", "https://exp-sample.cn")
 
 
 def load(name):
